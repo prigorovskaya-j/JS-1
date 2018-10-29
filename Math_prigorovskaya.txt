@@ -1,0 +1,91 @@
+console.log(Math.max(12, 45, 78, 123, 7)); //наибольшее из чисел
+
+//Методы
+
+console.log(Math.acos(1)); //арккосинус числа в радианах
+
+console.log(Math.abs(34)); //возвращает абсолютное значение числа
+
+console.log(Math.acosh(45)); //возвращает гиперболический арккосинус числа
+
+console.log(Math.asin(90)); //возвращает арксинус числа
+
+console.log(Math.asinh(0.5)); //возвращает гиперболический арксинус числа
+
+console.log(Math.atan(1)); //арктангенс
+
+console.log(Math.atanh(33)); //гиперболический арктангенс
+
+console.log(Math.atan2(90, 2)); //арктангенс от частного своих аргументов
+
+console.log(Math.cbrt(27)); //кубический корень числа
+
+console.log(Math.ceil(46)); // наим. целое, большее или равное указ. числу
+
+console.log(Math.clz32(345)); //кол-во ведущих нулей 32-битного целого числа
+
+console.log(Math.cos(60)); //косинус числа
+
+console.log(Math.cosh(1)); //гиперболический косинус
+
+console.log(Math.exp(23)); //E^x, где x-аргумент, E-число Эйлера(2,718)
+
+console.log(Math.expm1(43)); // exp(x)-1
+
+console.log(Math.floor(34)); //наиб. целое число меньшее либо  равное указ. числу
+
+console.log(Math.fround(123)); //ближайшее число с плавающей запятой одинарной точностиб представляющее это число
+
+console.log(Math.hypot(1, 23, 56)); //квадратный корень из суммы квадратов своих аргументов
+
+console.log(Math.imul(345)); //результат умножения 32-битных целых чисел
+
+console.log(Math.log(4)); //натуральный логарифм
+
+console.log(Math.log1p(9)); //log(1+x)
+
+console.log(Math.log10(16)); //десятичный log
+
+console.log(Math.log2(27)); //двоичный log
+
+console.log(Math.max(1, 56, 34, 123, 555)); //наиб из аргументов
+
+console.log(Math.min(234, 6786, 434,23412)); // меньшее из аргументов
+
+console.log(Math.pow(23, 65)); //основание в степени экспоненты т.е. знач выражения основание ^экпонента
+
+console.log(Math.random()); //псевдорандомное число  от 0 до 1
+
+console.log(Math.round(555.67)); //число, округленное до ближайшего целогго
+
+console.log(Math.sign(-98)); //возвращает знак числа +-0
+
+console.log(Math.sin(45)); //sinx
+
+console.log(Math.sinh(99)); //гиперболический sin
+
+console.log(Math.sqrt(225)); //+квадратный корень
+
+console.log(Math.tan(45)); //tanx
+
+console.log(Math.tanh(565)); //гиперболический tg
+
+console.log(Math.trunc(234.123)); //целую часть убирая дробные
+
+//Свойства
+
+console.log(Math.E); //число Эйлера
+
+console.log(Math.LN2) //ln из 2
+
+console.log(Math.LN) //ln из 10
+
+console.log(Math.LOG2E) //ДВОИЧНЫЙ ЛОГАРИФМ ИЗ е
+
+console.log(Math.LOG10E) //десятичный логарифм из Е
+
+console.log(Math.PI) //отношение длины окружности круга к его диаметру
+
+console.log(Math.SQRT1_2) //корень из 1/2
+
+console.log(Math.SQRT2) //КОРЕНЬ ИЗ 2
